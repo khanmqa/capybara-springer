@@ -10,7 +10,7 @@ end
 
 Then("I able to see relevant results") do
 within(:css,"h1#number-of-search-results-and-search-terms")do
-page.should have_content('Result(s) for HIIT')
+page.should have_content('Result(s) for \'HIIT\'')
 end
 end
 
